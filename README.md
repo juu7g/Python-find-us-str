@@ -47,7 +47,6 @@ UTF-8 の文字コードのテキストファイルを対象に文字列検索
 	- `*` ：任意の文字0以上
 	- `?` ：任意の文字1文字
 	- `[]`：カッコ内の文字列のどれか一文字（`-`で範囲指定可）
-	- ※Python の pathlib.glob() の使い方に準拠
 
 オプション|説明
 ---|---
@@ -67,7 +66,7 @@ UTF-8 の文字コードのテキストファイルを対象に文字列検索
 ## プログラムの説明サイト Program description site
 
 - 使い方：[ファイル内文字列検索アプリfind-us-str【フリー】 - プログラムでおかえしできるかな](https://juu7g.hatenablog.com/entry/Python/find-us-str-exe)  
-- 作り方：[ファイル内文字検索アプリの作り方【Python】 - プログラムでおかえしできるかな](https://juu7g.hatenablog.com/entry/Python/find-us-str)
+- 作り方：[【準備中】ファイル内文字検索アプリの作り方【Python】 - プログラムでおかえしできるかな](https://juu7g.hatenablog.com/entry/Python/find-us-str)
   
 ## 作者 Authors
 juu7g
