@@ -10,10 +10,15 @@
 import re
 import os
 from pathlib import Path
+import sys, io
 
 COLOR_RED = "\033[31m"      # 赤色文字エスケープシーケンス
 COLOR_END = "\033[0m"       # 色付け終了エスケープシーケンス
 COLOR_UDL = "\033[4m"       # 下線エスケープシーケンス
+
+# 出力をリダイレクトしたときのエンコードエラー回避
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 def find_text_in_dir(target_path:str, keyword:str, subdir:bool, is_icase:bool, 
                      is_regx:bool, exculde_dir:str, include_dir:str, plain_text:bool):
