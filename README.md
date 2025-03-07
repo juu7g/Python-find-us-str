@@ -66,7 +66,7 @@ UTF-8 の文字コードのテキストファイルを対象に文字列検索
 ## プログラムの説明サイト Program description site
 
 - 使い方：[ファイル内文字列検索アプリfind-us-str【フリー】 - プログラムでおかえしできるかな](https://juu7g.hatenablog.com/entry/Python/find-us-str-exe)  
-- 作り方：[【準備中】ファイル内文字検索アプリの作り方【Python】 - プログラムでおかえしできるかな](https://juu7g.hatenablog.com/entry/Python/find-us-str)
+- 作り方：[ファイル内文字列検索アプリの作り方【Python】 - プログラムでおかえしできるかな](https://juu7g.hatenablog.com/entry/Python/find-us-str)
   
 ## 作者 Authors
 juu7g
